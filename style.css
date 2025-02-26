@@ -125,10 +125,12 @@ section.flexbox {
 
 .slechtetitelsonder{
     display: flex;
+    flex-wrap: wrap;
+    gap: 4em 0em;
     justify-content: center;
     margin-top: 5em;
     img{
-        width: 40em;
+        width: 51%;
         
     }
 }
@@ -145,11 +147,6 @@ section.flexbox {
         margin-top: 4em;
     }
 
-    a{
-
-
-
-    }
 }
 
 .tabel {
