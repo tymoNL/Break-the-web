@@ -43,6 +43,7 @@ section:nth-of-type(1) {
 
                 &~.fa-times {
                     display: inline;
+                    color: crimson;
                 }
             }
 
@@ -51,6 +52,7 @@ section:nth-of-type(1) {
 
                 &~.fa-check {
                     display: inline;
+                    color: forestgreen;
                 }
             }
         }
