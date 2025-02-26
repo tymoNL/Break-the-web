@@ -4,8 +4,9 @@ body {
 }
 
 header {
-    position: sticky;
-    top: 0;
+    /* position: sticky; */
+    background-color: #fff;
+    /* top: 0; */
     box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
 
@@ -26,6 +27,7 @@ header {
 section.flexbox {
     display: flex;
     justify-content: center;
+    margin-top: 8em;
 
     form {
         background-color: #ccc;
@@ -103,7 +105,7 @@ section.flexbox {
     display: flex;
     justify-content: center;
     gap: 0 4em;
-    margin-top: 5em;
+    margin-top: 8em;
 
     img{
         width: 30em;
