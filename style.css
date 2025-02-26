@@ -16,7 +16,7 @@ header {
 
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1440px) {
     .container {
         padding: 0 1rem;
     }
@@ -93,6 +93,8 @@ section:nth-of-type(1) {
 .slechtetitels{
     display: flex;
     justify-content: center;
+    gap: 0 4em;
+    margin-top: 5em;
 
     img{
         width: 30em;
@@ -100,3 +102,13 @@ section:nth-of-type(1) {
     }
 
 } 
+
+.slechtetitelsonder{
+    display: flex;
+    justify-content: center;
+    margin-top: 5em;
+    img{
+        width: 40em;
+        
+    }
+}
