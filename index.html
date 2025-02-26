@@ -19,8 +19,31 @@
         </div>
     </header>
 
-    <main>
-        <section class="container flexbox">
+    <main class="container">
+        <section class="flexbox">
+            <form>
+                <table>
+                    <tr>
+                        <td><input type="text" name="Voornaam" placeholder="Voornaam" value="Tymo" /></td>
+                        <td><input type="text" name="Achternaam" placeholder="Achternaam" value="Smids" /></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="email" name="Email" placeholder="Email*" required value="test@tester.nl" />
+                        </td>
+                        <td>
+                            <input type="password" name="Wachtwoord" placeholder="Wachtwoord*" required value="test" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <button type="button">Maak account aan</button>
+                            <button type="button" disabled>Maak account aan</button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+
             <form>
                 <table>
                     <tr>
@@ -43,7 +66,6 @@
                         <td colspan="2">
                             <button type="button">Maak account aan</button>
                             <button type="button" disabled>Maak account aan</button>
-                            <i class="fa fa-grav" aria-hidden="true"></i>
                         </td>
                     </tr>
                 </table>
