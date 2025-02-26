@@ -154,10 +154,12 @@ section.flexbox {
 
 .tabel {
     display: flex;
+    
+    flex-direction: column;
+    width: 60%;
     justify-content: center;
 }
 
-.tabel p {
-    max-width: 25%;
-    align-items: center;
+.tabel p, img {
+    justify-content: center;
 }
