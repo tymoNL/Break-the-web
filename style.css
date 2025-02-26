@@ -151,3 +151,13 @@ section.flexbox {
 
     }
 }
+
+.tabel {
+    display: flex;
+    justify-content: center;
+}
+
+.tabel p {
+    max-width: 25%;
+    align-items: center;
+}
