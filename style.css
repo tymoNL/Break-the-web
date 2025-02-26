@@ -87,3 +87,16 @@ section:nth-of-type(1) {
         }
     }
 }
+
+
+
+.slechtetitels{
+    display: flex;
+    justify-content: center;
+
+    img{
+        width: 30em;
+    
+    }
+
+} 
