@@ -24,8 +24,14 @@ header {
 
 
 section:nth-of-type(1) {
+    display: flex;
+    justify-content: center;
+
     form {
+        background-color: #ccc;
+        padding: 1rem 2rem;
         overflow-x: auto;
+        border-radius: 10px;
 
         i {
             display: none;
@@ -64,6 +70,7 @@ section:nth-of-type(1) {
             border: none;
             border-radius: 5px;
             cursor: pointer;
+            font-weight: bold;
         }
 
         /* Hide disabled button */
