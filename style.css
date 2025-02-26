@@ -23,7 +23,7 @@ header {
 }
 
 
-section:nth-of-type(1) {
+section.flexbox {
     display: flex;
     justify-content: center;
 
